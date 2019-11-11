@@ -1,0 +1,44 @@
+body {
+  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  background-color: #d3dde0;
+}
+
+.resistor {
+  height: 120px;
+  display: flex;
+  margin: 30px 0px;
+}
+
+.lead {
+  width: 80px;
+  height: 10px;
+  background-color: silver;
+  margin: auto 0;
+}
+
+.resistor-body {
+  width: 300px;
+  height: inherit;
+  background-color: moccasin;
+  display: flex;
+  border-radius: 120px;
+  justify-content: center;
+}
+
+.line {
+  width: 14px;
+  height: inherit;
+  background-color: black;
+  margin: 0 15px;
+}
+
+#c3 {
+  background-color: gold;
+}
+
+#result {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  margin-left: 80px;
+  display: none;
+}

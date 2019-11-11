@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>抵抗計算機</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>抵抗計算機！</h1>
+  <section class="selectors">
+    <div class="selector">
+      <label for="accuracy">精度: </label>
+      <select id="accuracy">
+        <option value="5">±5%</option>
+        <option value="10">±10%</option>
+      </select>
+    </div>
+  </section>
+  <section class="resistor">
+    <div class="lead"></div>
+    <div class="resistor-body">
+      <div class="line" id="c0"></div>
+      <div class="line" id="c1"></div>
+      <div class="line" id="c2"></div>
+      <div class="line" id="c3"></div>
+    </div>
+    <div class="lead"></div>
+    <script src="js/main.js"></script>
+  </section>
+  <p id="result"><span id="tens"></span><span id="ones"></span> × 10<sup><span id="exp"></span></sup> = <span id="ans"><span id="value"></span><span id="prefix"></span>Ω</span></p>
+</body>
+</html>
